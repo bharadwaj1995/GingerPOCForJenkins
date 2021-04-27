@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5dea4b82-3dc5-42b8-be28-f9df74400011" ItemType="RunSetConfig" CreatedBy="subrahmg" Created="202104270402" GingerVersion="3.7.0.0" Version="5" LastUpdateBy="subrahmg" LastUpdate="202104270404" />
+<RunSetConfig Guid="5dea4b82-3dc5-42b8-be28-f9df74400011" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="9564f379-95db-46c5-9864-1d5aac11dbe6" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="1e99d356-33fb-4905-8983-c2b09508da31" AgentName="GingerPOCWithJenkins - Agent 1" AppID="f72f4bd3-570a-442d-bbaa-1feb3c6ee4bf" AppName="GingerPOCWithJenkins" Guid="97e97e30-8a6e-40e8-8d3a-889974452a30" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="54c030dc-bb16-4927-8805-04081cdc40f5" BusinessFlowInstanceGuid="56459c2b-ae24-4152-97f2-18cc6df1e5bb" BusinessFlowIsActive="True" BusinessFlowName="Flow 1" Guid="6c02930a-81a4-4177-8ba8-85ea5590af6d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+<GingerRunner Guid="dd391339-1aad-4761-97c7-59de666cae17" Name="Runner 2" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="1e99d356-33fb-4905-8983-c2b09508da31" AgentName="GingerPOCWithJenkins - Agent 1" AppID="f72f4bd3-570a-442d-bbaa-1feb3c6ee4bf" AppName="GingerPOCWithJenkins" Guid="cf0eb067-5809-44c4-86f1-8e44f12cbd0b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="54c030dc-bb16-4927-8805-04081cdc40f5" BusinessFlowInstanceGuid="93a11d1a-c4f7-47cb-8907-5e29cb166b47" BusinessFlowIsActive="True" BusinessFlowName="Flow 1" Guid="12c5d40e-025a-4d99-b32b-ec980ca00832" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
