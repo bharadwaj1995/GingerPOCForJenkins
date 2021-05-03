@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="1e99d356-33fb-4905-8983-c2b09508da31" ItemType="Agent" CreatedBy="subrahmg" Created="202104270402" GingerVersion="3.7.0.0" Version="1" LastUpdateBy="subrahmg" LastUpdate="202104270402" />
-<Agent AgentType="Driver" DriverType="WindowsAutomation" Guid="1e99d356-33fb-4905-8983-c2b09508da31" Name="GingerPOCWithJenkins - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows">
-<DriverConfiguration>
-<DriverConfigParam Description="Action Timeout - default is 30 seconds" Guid="2a275fdd-aafa-4715-ad86-3480260090cf" Parameter="ActionTimeout" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
-<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="bcda870c-66b4-4c3a-a688-3e9b35ade385" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
-</DriverConfiguration>
-</Agent></GingerRepositoryItem>
